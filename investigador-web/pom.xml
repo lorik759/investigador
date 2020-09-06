@@ -21,6 +21,7 @@
     </properties>
 
     <dependencies>
+        <!-- Spring dependencies -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
@@ -37,10 +38,12 @@
                 </exclusion>
             </exclusions>
         </dependency>
+
+        <!-- VTEC dependencies -->
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
+            <groupId>org.vtec</groupId>
+            <artifactId>investigador-core</artifactId>
+            <version>${project.version}</version>
         </dependency>
     </dependencies>
 
