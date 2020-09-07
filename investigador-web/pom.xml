@@ -43,8 +43,13 @@
         <dependency>
             <groupId>org.vtec</groupId>
             <artifactId>investigador-core</artifactId>
-            <version>${project.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.vtec</groupId>
+            <artifactId>investigador-core</artifactId>
+            <type>test-jar</type>
+            <scope>test</scope>
         </dependency>
     </dependencies>
-
 </project>

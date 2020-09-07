@@ -20,12 +20,7 @@
         <spring.boot.starter.test.version>2.1.7.RELEASE</spring.boot.starter.test.version>
         <maven.jar.plugins.version>3.2.0</maven.jar.plugins.version>
         <spring.boot.version>2.3.3.RELEASE</spring.boot.version>
-        <mysql.version>8.0.21</mysql.version>
     </properties>
-
-    <dependencies>
-
-    </dependencies>
 
     <dependencyManagement>
         <dependencies>
@@ -34,6 +29,15 @@
                 <artifactId>investigador-core</artifactId>
                 <version>${project.version}</version>
             </dependency>
+
+            <dependency>
+                <groupId>org.vtec</groupId>
+                <artifactId>investigador-core</artifactId>
+                <version>${project.version}</version>
+                <type>test-jar</type>
+                <scope>test</scope>
+            </dependency>
+
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-dependencies</artifactId>
